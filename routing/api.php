@@ -24,12 +24,4 @@ use Polyel\Router\Facade\Route;
 Route::group(['prefix' => '/api', 'middleware' => 'Auth:api'], function()
 {
     // ...
-    Route::get("/", "WelcomeController@welcome");
-
-    Route::group(['middleware' => 'ConfirmPassword'], function()
-    {
-        Route::get("/test/a/333/luke/444444", "WelcomeController@welcome");
-    });
-
-    Route::get("/test/a", "WelcomeController@welcome");
 });
