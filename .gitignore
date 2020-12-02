@@ -1,0 +1,15 @@
+.idea
+.DS_Store
+.wakatime-project
+
+# Environment Variables
+.env
+/config/env/*
+!/config/env/.env.example
+
+# Session Storage
+/storage/polyel/sessions/*
+!/storage/polyel/sessions/.gitkeep
+
+# The PHP Polyel debug file
+/debug.php
