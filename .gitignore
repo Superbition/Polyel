@@ -2,6 +2,9 @@
 .DS_Store
 .wakatime-project
 
+# Composer Vendor Directory
+/vendor
+
 # Environment Variables
 .env
 /config/env/*
