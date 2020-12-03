@@ -1,0 +1,11 @@
+{
+	"name": "superbition/polyel-skeleton",
+	"type": "project",
+	"description": "Polyel PHP Framework",
+	"minimum-stability": "dev",
+	"license": "Apache-2.0",
+	"require": {
+	  "php": "^7.4",
+	  "superbition/polyel-framework": "<1.0"
+	}
+}
