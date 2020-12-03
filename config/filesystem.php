@@ -26,12 +26,12 @@ return [
 
         "local" => [
             "driver" => "local",
-            "root" => ROOT_DIR . "/storage/app",
+            "root" => APP_DIR . "/storage/app",
         ],
 
         "public" => [
             "driver" => "local",
-            "root" => ROOT_DIR . "/storage/app/public",
+            "root" => APP_DIR . "/storage/app/public",
         ]
 
     ]

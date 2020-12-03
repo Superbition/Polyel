@@ -13,9 +13,9 @@ echo "
 ";
 
 echo "Creating Root Directory constant\n";
-define("ROOT_DIR", __DIR__);
+define("APP_DIR", __DIR__);
 
-require __DIR__ . "/Polyel/bootstrap.php";
+require __DIR__ . "/vendor/superbition/polyel-framework/bootstrap.php";
 
 $server = Polyel::call(Polyel\Http\Server::class);
 

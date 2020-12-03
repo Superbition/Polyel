@@ -2,9 +2,9 @@
 
 <?php
 
-define('ROOT_DIR', __DIR__);
+define('APP_DIR', __DIR__);
 
-require ROOT_DIR . '/Polyel/console-bootstrap.php';
+require APP_DIR . '/vendor/superbition/polyel-framework/console-bootstrap.php';
 
 $kernel = Polyel::newConsoleKernel();
 
