@@ -2,6 +2,9 @@
 .DS_Store
 .wakatime-project
 
+# NPM installs/ node modules directory
+/node_modules
+
 # Composer Vendor Directory
 /vendor
 
