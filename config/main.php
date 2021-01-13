@@ -22,4 +22,21 @@ return [
     "encryptionKey" => env('Encryption.KEY', ''),
     "encryptionCipher" => "AES-256-CBC",
 
+    /*
+    │------------------------------------------------------------------------------
+    │ Application Services to Register
+    │------------------------------------------------------------------------------
+    | This array lists all the applications services you want to register
+    | using a Service Supplier. You only need to register a service with a
+    | Service Supplier if it cannot be defined normally using the DI
+    | Container, such as a complex constructor or non-object dependencies.
+    | A service can be defined inside a supplier locally (request bound) or
+    | globally (server bound) and you have the ability to defer service
+    | creation.
+    |
+    */
+    'servicesSuppliers' => [
+        // ...
+    ],
+
 ];
