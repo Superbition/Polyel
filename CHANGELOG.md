@@ -2,7 +2,7 @@
 
 ## [v0.3.0 (2021-01-13)](https://github.com/Superbition/Polyel/releases/tag/v0.3.0)
 
-## Added
+### Added
 
 - New default skeleton directories for application services: `app/services/` & `app/Services/Suppliers`
 - New configuration element for application services in `main.php` under `servicesSuppliers`
