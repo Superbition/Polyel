@@ -1,5 +1,16 @@
 # Release Notes for the Polyel Skeleton
 
+## [v0.4.0 (2021-01-27)](https://github.com/Superbition/Polyel/releases/tag/v0.4.0)
+
+### Added
+
+- Added new `main.php` configuration option `autoGenerateComposerClassmap`, please see the configuration file
+for more details or visit: https://polyel.io/docs/architectural_design/third-party-packages/
+  
+### Fixed
+
+- Styling of previous changelog
+
 ## [v0.3.0 (2021-01-13)](https://github.com/Superbition/Polyel/releases/tag/v0.3.0)
 
 ### Added
