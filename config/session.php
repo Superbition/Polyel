@@ -8,9 +8,10 @@ return [
     │------------------------------------------------------------------------------
     │ The driver used to interact with session data for every request.
     │ By default the file system is used as a session system, this should be fine
-    │ for many applications.
+    │ for many applications. You can use the database session driver for better
+    | performance and scaling.
     │
-    │ Other drivers are in development.
+    │ Available Session Drivers: file, database
     │
     */
     'driver' => 'file',
@@ -44,7 +45,8 @@ return [
     │------------------------------------------------------------------------------
     │ When creating the session ID and name, you can set a
     │ Session prefix which will be added to the start of the ID string. You are
-    │ free to change this if you want to. Only use A-z 0-9 and minus.
+    │ free to change this if you want to. Only use A-z 0-9 and dashes.
+    | Note: This option is only used when the file session driver is being used.
     │
     */
     'prefix' => 'polyel-session-',
