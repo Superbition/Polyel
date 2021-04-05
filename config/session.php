@@ -46,6 +46,7 @@ return [
     │ When creating the session ID and name, you can set a
     │ Session prefix which will be added to the start of the ID string. You are
     │ free to change this if you want to. Only use A-z 0-9 and dashes.
+    |
     | Note: This option is only used when the file session driver is being used.
     │
     */
