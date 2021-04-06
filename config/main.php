@@ -4,6 +4,8 @@ return [
 
     "appName" => "Polyel",
 
+    'baseUrl' => env('APP.BASE_URL', 'http://localhost'),
+
     /*
     │------------------------------------------------------------------------------
     │ Encryption Settings
