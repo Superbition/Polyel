@@ -72,7 +72,7 @@ class RegisterController extends Controller
      */
     private function registered($request, $userID)
     {
-        if($this->sendVerificationEmail($this->auth->user()->get('email')) === false)
+        if($this->sendVerificationEmail($this->auth->user()->get('username'), $this->auth->user()->get('email')) === false)
         {
             // TODO: Send back why the email failed to send
         }
