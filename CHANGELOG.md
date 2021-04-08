@@ -1,5 +1,25 @@
 # Release Notes for the Polyel Skeleton
 
+## [v0.5.0 (2021-04-08)](https://github.com/Superbition/Polyel/releases/tag/v0.5.0)
+
+### Added
+
+- Updated the session configuration file to support the use of the new DB session driver
+- Added new email configuration file to support the new email service from the framework
+- There is a new email directory at `app/Email` where you store all reusable emails
+- Added a new `main.php` configuration option `baseUrl`
+- Because of the new email service from the framework, the skeleton now has full functionality for sending emails for
+  verification and password resetting, check the `app/Email` directory
+
+### Changed
+
+- Inside the `session.php` configuration file, the prefix is now only used with the file driver because the
+  database driver does not need it.
+
+### Fixed
+
+- Added missing error flash placeholder for the email verify view
+
 ## [v0.4.0 (2021-01-27)](https://github.com/Superbition/Polyel/releases/tag/v0.4.0)
 
 ### Added
